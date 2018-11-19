@@ -1,0 +1,87 @@
+/*
+Theme Name: morial
+Author: achilles
+Description: morial is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins. Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch, Hungarian, German, Persian, Ukrainian  Lithuanian, Portuguese, Italian, Danish, Turkish and Polish. It is Multilingual ready and compatible with WPML plugin. It is probably the best free WordPress theme built for eStores and business websites.
+Version: 2.1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: morial
+Domain Path: /languages/
+Tags: grid-layout, footer-widgets, blog, education, entertainment, food-and-drink, news, photography, portfolio
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+morial is based on Underscores http://underscores.me/, (C) 2012-2017 Automattic, Inc.
+
+*/
+/* body */
+body {
+    color: #6B6B6B;
+    word-wrap: break-word;
+    line-height: 1.7;
+    font-size: 14px;
+  }
+  
+a {
+color: #1FA67A;
+text-decoration: none;
+-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+}
+
+a:hover,
+a:focus {
+color: #333;
+text-decoration: none;
+}
+
+a:focus {
+outline: thin dotted;
+outline: 5px auto -webkit-focus-ring-color;
+outline-offset: -2px;
+}
+
+/* Header */
+.logo{
+    width: 200px;
+    float: left;
+    color: #1FA67A;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-style: italic;
+    margin-right: 150px;
+}
+/* menu primary */
+.menu{
+    float:left;
+}
+#navbar-primary{
+    width: 780px;
+} 
+#navbar-primary ul li{
+     width: 150px;
+}
+#navbar-primary ul li a{
+    text-align: center;
+}
+#navbar-primary ul li ul.sub-menu{
+    display: none;
+}
+
+#navbar-primary ul li:hover ul.sub-menu{
+    display: block;
+    width: 150px;
+}
+#navbar-primary ul li ul.sub-menu{
+    width: 150px;
+    list-style: none;
+}
+#navbar-primary ul li ul.sub-menu li {
+    width: 150px;
+    height: 40px;
+    list-style: none;
+    padding:10px;
+}
