@@ -29,12 +29,11 @@
         wp_nav_menu(array(
             'menu'              => 'primary',
             'theme_location'    => 'primary',
-            'depth'             => 2,
+            'depth'             => 3,
             'container'         => 'div',
             'container_class'   => 'collapse navbar-collapse navbar-ex1-collapse',
             'container_id'	=> 'navbar-primary',
             'menu_class'        => 'nav navbar-nav',
-            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
         ));
     } /* end header menu */
     endif;

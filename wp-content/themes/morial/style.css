@@ -43,7 +43,12 @@ outline: thin dotted;
 outline: 5px auto -webkit-focus-ring-color;
 outline-offset: -2px;
 }
-
+/* .hfeed{
+    border: 1px solid #1FA67A;
+} */
+/* .nav-main .container{
+    background: #1FA67A;
+} */
 /* Header */
 .logo{
     width: 200px;
@@ -52,17 +57,26 @@ outline-offset: -2px;
     font-size: 2.5em;
     font-weight: 600;
     font-style: italic;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 /* menu primary */
 .menu{
     float:left;
+    height: 60px;
+}
+.menu::after{
+    content: "";
+    display: block;
+    content: "";
+    clear: both;
 }
 #navbar-primary{
     width: 780px;
+    height: 60px;
 } 
 #navbar-primary ul li{
-     width: 150px;
+    width: 150px;
+    /* background: #1FA67A; */
 }
 #navbar-primary ul li a{
     text-align: center;
@@ -76,12 +90,40 @@ outline-offset: -2px;
     width: 150px;
 }
 #navbar-primary ul li ul.sub-menu{
-    width: 150px;
     list-style: none;
 }
 #navbar-primary ul li ul.sub-menu li {
     width: 150px;
-    height: 40px;
+    margin-left: -40px;
+    height: 50px;
     list-style: none;
-    padding:10px;
+    padding-top:15px ;
+    padding-bottom:15px ;
+
+}
+#navbar-primary ul li ul.sub-menu li  a{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+#navbar-primary ul li ul.sub-menu li:hover{
+    background: #eee;
+}
+
+#navbar-primary ul li ul.sub-menu li ul.sub-menu {
+   display: none;
+}
+
+#navbar-primary ul li ul.sub-menu li:hover ul.sub-menu{
+    display: block;
+    margin-top: -38px;
+    margin-left: 150px;
+}
+.line{
+    width: 100%;
+    border-top: 1px solid #1FA67A;
+    position: relative;
 }

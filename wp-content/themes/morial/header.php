@@ -26,4 +26,5 @@
                 <?php morial_header_menu() ?>
             </div>
         </div>
+        <div class="line"></div>
     </div>
